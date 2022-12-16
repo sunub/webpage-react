@@ -1,15 +1,6 @@
-import React from "react-dom/client";
 import "./style.css";
+import App from "./App";
 
-const root = React.createRoot(document.getElementById("root") as HTMLElement);
+const domElement = document.getElementById("root") as HTMLElement;
 
-const too = "tata";
-
-root.render(
-  <div>
-    <h1 className="title">Hello {too}</h1>
-    <p>
-      Some <br /> content {Date.now()}
-    </p>
-  </div>
-);
+const app = App(domElement);
