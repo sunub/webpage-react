@@ -1,0 +1,47 @@
+#typing {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+dialog:modal {
+  scale: 2;
+}
+
+dialog::backdrop {
+  background: hsla(0, 0%, 10%, 0.6);
+}
+
+dialog[open] {
+  display: grid;
+}
+
+/* #input-dialog {
+  display: grid;
+  justify-items: center;
+
+  grid-template:
+    ". title ."
+    "input input send"
+    ". close ." / 1fr;
+
+  & > #input-dialog:modal {
+    scale: 10;
+  }
+
+  & > p {
+    grid-area: title;
+  }
+
+  & > input {
+    grid-area: input;
+  }
+
+  & > #send {
+    grid-area: send;
+  }
+
+  & > #close {
+    grid-area: close;
+  }
+} */

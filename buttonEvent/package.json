@@ -22,11 +22,13 @@
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
     "@vitejs/plugin-react": "^2.2.0",
-    "postcss": "^8.4.18",
+    "cssnano": "^5.1.14",
+    "postcss": "^8.4.20",
+    "postcss-cli": "^10.1.0",
     "postcss-config": "^1.1.1",
     "postcss-load-config": "^4.0.1",
     "postcss-plugin": "^1.0.0",
-    "postcss-preset-env": "^7.8.2",
+    "postcss-preset-env": "^7.8.3",
     "typescript": "^4.6.4",
     "vite": "^3.2.0"
   }

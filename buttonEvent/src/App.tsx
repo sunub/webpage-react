@@ -8,9 +8,12 @@ const App = (domElement: HTMLElement) => {
 
   root.render(
     <div id="container">
-      <Button />
-      <Throw />
-      <Search />
+      <h1 id="title">title</h1>
+      <div id="button-container">
+        <Button />
+        <Throw />
+        <Search />
+      </div>
     </div>
   );
 };

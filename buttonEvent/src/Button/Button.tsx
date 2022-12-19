@@ -4,7 +4,7 @@ const Button = () => {
   const [count, setCount] = useState(0);
 
   return (
-    <div id="button-container">
+    <div id="button">
       <p>Button Count : {count}</p>
       <button
         onClick={() => {

@@ -1,5 +1,5 @@
 const Throw = () => {
-  return <div id="throw-section"></div>;
+  return <div id="throw"></div>;
 };
 
 export default Throw;
